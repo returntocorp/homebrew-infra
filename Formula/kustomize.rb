@@ -1,6 +1,7 @@
 class Kustomize < Formula
   desc "Template-free customization of Kubernetes YAML manifests"
   homepage "https://github.com/kubernetes-sigs/kustomize"
+  version "4.2.0"
   on_arm do
     url "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.2.0/kustomize_v4.2.0_darwin_arm64.tar.gz"
     sha256 "7ad70475fe5684f7150f7f1825df5f17652ec812fa65129b756000e9a6b49fff"
