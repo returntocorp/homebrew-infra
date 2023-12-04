@@ -15,7 +15,7 @@ class Libxmlsec1AT1237 < Formula
   depends_on "pkg-config" => :build
   depends_on "gnutls" # Yes, it wants both ssl/tls variations
   depends_on "libgcrypt"
-  depends_on "libxml2"
+  depends_on "libxml2@2.11.5"
   depends_on "openssl@1.1"
   uses_from_macos "libxslt"
 
